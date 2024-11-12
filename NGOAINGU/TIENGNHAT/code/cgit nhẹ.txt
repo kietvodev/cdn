@@ -1,0 +1,4 @@
+git clone --depth 1 --filter=blob:none --sparse https://github.com/kietvodev/cdn.git
+git sparse-checkout init
+git sparse-checkout set NGOAINGU/TIENGNHAT/N5
+git checkout
